@@ -106,7 +106,7 @@ header.sticky ul li a {
 }
 
 .contentBx {
-	padding-right: 3rem;
+	padding: 1rem;
 }
 .contentBx h3 {
 	font-size: 2rem;
@@ -163,7 +163,7 @@ img {
 	max-width: 100%;
 }
 .testimonial {
-	background: #f7f7f7;
+	background: #ccc;
 }
 .testimonial .content {
 	display: flex;
@@ -420,5 +420,10 @@ img {
 	.formBx form p,
 	.contactInfo p {
 		text-align: center;
+	}
+}
+@media (min-width: 320px) and (max-width: 599px) {
+	.banner {
+		align-items: flex-end;
 	}
 }
