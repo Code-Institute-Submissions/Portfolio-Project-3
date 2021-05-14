@@ -34,9 +34,6 @@ header.sticky {
 header.sticky a:hover {
 	color: #d4873d;
 }
-header.sticky .logo {
-	color: #d4873d;
-}
 header .logo {
 	color: #fff;
 	font-size: 2rem;
@@ -44,6 +41,9 @@ header .logo {
 	text-decoration: none;
 	font-weight: 700;
 	letter-spacing: 2px;
+}
+header.stycky .logo:hover {
+	color: #fff;
 }
 header ul {
 	position: relative;
