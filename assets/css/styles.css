@@ -23,13 +23,19 @@ header {
 	align-items: center;
 	transition: 0.5s;
 }
+header a:hover {
+	color: #d4873d;
+}
 header.sticky {
 	background: rgba(0, 0, 0, 0.8);
 	padding: 40px 100px;
 	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
+header.sticky a:hover {
+	color: #d4873d;
+}
 header.sticky .logo {
-	color: #fff;
+	color: #d4873d;
 }
 header .logo {
 	color: #fff;
@@ -85,7 +91,7 @@ header.sticky ul li a {
 }
 .btn {
 	position: relative;
-	background: #17b978;
+	background: #d4873d;
 	display: inline-block;
 	color: #fff;
 	margin-top: 1.5rem;
@@ -122,6 +128,11 @@ header.sticky ul li a {
 }
 img {
 	max-width: 100%;
+}
+#about-img {
+	filter: grayscale(1);
+	outline: none;
+	box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.8);
 }
 .services {
 	background: #111;
@@ -238,7 +249,7 @@ img {
 }
 .formBx form input[type="submit"] {
 	max-width: 100px;
-	background: #17b978;
+	background: #d4873d;
 	cursor: pointer;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -283,7 +294,7 @@ img {
 }
 .contactInfoBx .box .text h3 {
 	font-weight: 500;
-	color: #17b978;
+	color: #d4873d;
 }
 .copyright {
 	background: #000;
