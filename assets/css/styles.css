@@ -137,6 +137,10 @@ img {
 .services {
 	background: #111;
 }
+.servicesBx a {
+	text-decoration: none;
+	color: #fff;
+}
 .heading .white {
 	color: #fff;
 	text-align: center;
