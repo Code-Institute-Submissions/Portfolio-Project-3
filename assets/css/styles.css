@@ -166,6 +166,68 @@ img {
 	font-size: 1.5rem;
 	font-weight: 600;
 }
+
+/* modal section */
+.js-openbtn {
+	background: #d4873d;
+	color: white;
+}
+.js-openbtn a {
+	text-decoration: none;
+	color: #fff;
+}
+.js-openbtn a:hover {
+	color: #333;
+}
+.js-closebtn {
+	background: #333;
+	color: white;
+}
+.js-closebtn:hover {
+	background: rgb(129, 1, 1);
+	color: #fff;
+}
+.button:active {
+	margin-top: 10px;
+	box-shadow: none;
+}
+#modal-bg {
+	background-color: rgba(0, 0, 0, 0.45);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -10;
+	opacity: 0;
+	transition: opacity 0.25s ease-in-out, z-index 0.25s ease-in-out;
+}
+#modal-bg.active {
+	opacity: 1;
+	z-index: 10;
+}
+#modal-box {
+	background-color: rgb(136, 133, 133);
+	position: fixed;
+	top: 25%;
+	left: 25%;
+	transform: translate(0, -10%);
+	max-width: 800px;
+	min-width: 600px;
+	border-radius: 8px;
+	padding: 25px;
+	z-index: 2;
+	opacity: 0;
+	z-index: -10;
+	transition: opacity 0.25s ease-in-out, z-index 0.25s ease-in-out;
+}
+#modal-box.active {
+	opacity: 1;
+	z-index: 11;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
 .work .content {
 	display: flex;
 	justify-content: space-between;
