@@ -132,7 +132,7 @@ img {
 #about-img {
 	filter: grayscale(1);
 	outline: none;
-	box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.8);
+	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.8);
 }
 .services {
 	background: #111;
@@ -208,12 +208,10 @@ img {
 }
 #modal-box {
 	background-color: rgb(136, 133, 133);
-	position: fixed;
-	top: 25%;
-	left: 25%;
-	transform: translate(0, -10%);
+	position: relative;
+	top: 20%;
+	margin: 0 auto;
 	max-width: 800px;
-	min-width: 600px;
 	border-radius: 8px;
 	padding: 25px;
 	z-index: 2;
@@ -224,6 +222,7 @@ img {
 #modal-box.active {
 	opacity: 1;
 	z-index: 11;
+	margin: 0 auto;
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<< */
