@@ -122,6 +122,10 @@ header.sticky ul li a {
 .contentBx h3 {
 	font-size: 2rem;
 }
+.contentBx a {
+	text-decoration: none;
+	color: #111;
+}
 .w50 {
 	min-width: 50%;
 	text-align: justify;
