@@ -73,6 +73,17 @@ header.sticky ul li a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	animation-name: zoom;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+@keyframes zoom {
+	from {
+		transform: scale(0.9);
+	}
+	to {
+		transform: scale(1);
+	}
 }
 .banner h2 {
 	font-size: 2.5rem;
