@@ -12,6 +12,8 @@ I have designed the UX in a intuitive way whereas visitors can easily find what 
 
 ## Design
 
+The Landing Page was divided in several sections that are easy to be navigated thanks to a dynamic sticky navigation that follows the user up and down the page.
+
 ### Colour Scheme and Imagery
 
 The colours chosen for the page were mainly black and white to bring the depth and drama on the imagery, with a touch of gold ish on links and buttons.
