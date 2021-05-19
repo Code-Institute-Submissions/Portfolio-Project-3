@@ -247,12 +247,13 @@ img {
 .work .content .workBx img {
 	max-width: 100%;
 }
-.workBx h5 {
+.workBx a {
 	text-align: center;
-}
-.workBx h5 a {
 	text-decoration: none;
+}
+.workBx h5 {
 	color: #111;
+	margin-top: 10px;
 }
 .testimonial {
 	background: #ccc;
