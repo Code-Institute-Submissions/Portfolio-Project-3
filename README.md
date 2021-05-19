@@ -4,7 +4,7 @@
 
 This page was designed with the purpose of attacting job opportunities. It is part of my milestones 2 (MLS 2) for my developer course at the Code Institute. The main idea with this page is to make it a hub for my future projects and work, so recruiters and potential employers can easily reach out.
 
-[View the live project here.](https://fdasabino.github.io/Portfolio-Project/).
+[View the live project here](https://fdasabino.github.io/Portfolio-Project/)
 
 ## UX
 
@@ -12,11 +12,11 @@ I have designed the UX in a intuitive way whereas visitors can easily find what 
 
 ## Design
 
-#### Colour Scheme and Imagery
+### Colour Scheme and Imagery
 
 The colours chosen for the page were mainly black and white to bring the depth and drama on the imagery, with a touch of gold ish on links and buttons.
 
-#### Typhography
+### Typhography
 
 The font I have chosen for the page is Questrial. It was downloaded from Google Fonts. It gives the page a modern and classy look.
 
