@@ -12,8 +12,6 @@
 
 - I have designed the UX in a intuitive way whereas visitors can easily find what they are looking for. The purpose of the design is provide feedback to the guests so they dont feel lost when navigating through the landing page.
 
-## Design
-
 - The Landing Page was divided in several sections that are easy to be navigated thanks to a dynamic sticky navigation that follows the user up and down the page.
 
 ### Colour Scheme and Imagery
@@ -54,17 +52,39 @@
 
 - GitHub is used to store the projects code after being pushed from VScode.
 
-## Testing
+#### Wireframing
 
-- The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-
-- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-
-## Wireframing
+I have used [Figma](https://figma.com/) for as a prototyping tool. Figma is very intuitive and easy to use. The program gives you a great look on how the page will come to look like as well as page connections that demonstrate the way the page should behave.
 
 - Desktop Home Page - [View](https://www.figma.com/proto/YIKdCz5k5o1l4NaIjVVt1h/Francisco-Sabino-Portfolio?node-id=7%3A191)
 
 - Tablet Home Page -[View](https://www.figma.com/proto/YIKdCz5k5o1l4NaIjVVt1h/Francisco-Sabino---Portfolio?node-id=7%3A199&scaling=min-zoom)
 
 - Mobile Home Page -[View](https://www.figma.com/proto/YIKdCz5k5o1l4NaIjVVt1h/Francisco-Sabino-Portfolio?node-id=0%3A1)
+
+## Testing
+
+### Validating
+
+- The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+### Different Browsers
+
+[Google Chrome](https://www.google.com/chrome/)
+
+[Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
+
+[Opera](https://www.opera.com/)
+
+[Google Chrome](https://www.google.com/chrome/)
+
+[Safari](https://www.apple.com/safari/)
+
+[Microsoft Edge](https://www.microsoft.com/en-us/edge)
+
+[Internet Explorer](https://support.microsoft.com/en-us/windows/internet-explorer-downloads-d49e1f0d-571c-9a7b-d97e-be248806ca70)
+
+All the browsers above have been tested. Out of those tested only Microsoft Internet explorer have presented anomalies.
