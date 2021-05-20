@@ -88,3 +88,13 @@ I have used [Figma](https://figma.com/) for as a prototyping tool. Figma is very
 [Internet Explorer](https://support.microsoft.com/en-us/windows/internet-explorer-downloads-d49e1f0d-571c-9a7b-d97e-be248806ca70)
 
 All the browsers above have been tested. Out of those tested only Microsoft Internet explorer have presented anomalies.
+
+## Features Left to Implement
+
+#### In a near future I would like to implement:
+
+- The possibilitiy of receiving messages from visitors through the contact form on the wesite using mySQL.
+
+- Add some more fun and educational games and challenges to the page.
+
+- Complete the set of Milestones from Code Institute to the milestones section.

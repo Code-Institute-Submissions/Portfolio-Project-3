@@ -29,3 +29,17 @@ closeBtns.forEach((node) => {
 		modalBox.classList.remove("active");
 	});
 });
+
+// Send email form
+function sendMail(params) {
+	var tempParams = {
+		from_name: document.getElementById("fromName").value,
+		from_email: document.getElementById("fromEmail").value,
+		message: document.getElementById("message").value,
+	};
+	emailjs
+		.send("service_lzkzpo6", "template_6m1mboe", tempParams)
+		.then(function (res) {
+			console.log("sucess", res.status);
+		});
+}
