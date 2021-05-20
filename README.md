@@ -38,11 +38,11 @@ The font I have chosen for the page is Questrial. It was downloaded from Google 
 
 [Hover.css:](https://ianlunn.github.io/Hover/)
 
-- Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+- Hover.css was used on the Social Media icon.
 
 [Google Fonts:](https://fonts.google.com/)
 
-- Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+- Google fonts were used to import the 'Questrial' font into the style.css file which is used on the project.
 
 [Font Awesome:](https://fontawesome.com/)
 
