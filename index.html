@@ -294,7 +294,13 @@
 					</div>
 				</div>
 				<div class="formBx">
-					<form name="form" id="form">
+					<form
+						name="form"
+						id="form"
+						method="post"
+						onsubmit="return validateForm()"
+						required
+					>
 						<h3>Send Me a Message</h3>
 						<input
 							type="text"
@@ -311,13 +317,13 @@
 							required
 						/>
 						<textarea
-							name="message"
 							type="text"
+							name="message"
 							id="message"
 							placeholder="Your Message"
 							required
 						></textarea>
-						<input type="submit" value="send" onclick="sendMail()" />
+						<input type="submit" value="send" id="send" />
 					</form>
 				</div>
 			</div>

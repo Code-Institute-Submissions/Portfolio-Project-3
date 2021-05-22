@@ -31,15 +31,26 @@ closeBtns.forEach((node) => {
 });
 
 // Send email form
-function sendMail(params) {
+let sendButton = document.getElementById("send");
+
+sendButton.addEventListener("click", function (event) {
+	event.preventDefault();
 	var tempParams = {
 		from_name: document.getElementById("fromName").value,
 		from_email: document.getElementById("fromEmail").value,
 		message: document.getElementById("message").value,
 	};
 	emailjs
-		.send("service_lzkzpo6", "template_6m1mboe", tempParams)
-		.then(function (res) {
-			console.log("sucess", res.status);
+		.send("service_lzkzpo6", "template_7h9n81z", tempParams)
+		.then(function (response) {
+			console.log("sucess", response.status);
 		});
+});
+
+function validateForm() {
+	let i = document.forms["form"]["name"]["email"]["message"].value;
+	if (i == "") {
+		alert("All Fields need to be filled Out");
+		return false;
+	}
 }
