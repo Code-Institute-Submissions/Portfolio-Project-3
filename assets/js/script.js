@@ -38,19 +38,15 @@ sendButton.addEventListener("click", function (event) {
 	var tempParams = {
 		from_name: document.getElementById("fromName").value,
 		from_email: document.getElementById("fromEmail").value,
-		message: document.getElementById("message").value,
+		message: document.getElementById("msg").value,
 	};
 	emailjs
 		.send("service_lzkzpo6", "template_7h9n81z", tempParams)
 		.then(function (response) {
 			console.log("sucess", response.status);
+			location.reload();
+			alert(
+				"Thank you for your message, I will get back to you as soon as possible"
+			);
 		});
 });
-
-function validateForm() {
-	let i = document.forms["form"]["name"]["email"]["message"].value;
-	if (i == "") {
-		alert("All Fields need to be filled Out");
-		return false;
-	}
-}
