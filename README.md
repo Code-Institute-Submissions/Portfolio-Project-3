@@ -87,10 +87,24 @@ I have used [Figma](https://figma.com/) for as a prototyping tool. Figma is very
 
 [Internet Explorer](https://support.microsoft.com/en-us/windows/internet-explorer-downloads-d49e1f0d-571c-9a7b-d97e-be248806ca70)
 
-All the browsers above have been tested. Out of those tested only Microsoft Internet explorer have presented anomalies.
+- All the browsers above have been tested. Out of those tested only Microsoft Internet explorer have presented anomalies.
 
 ## Features Left to Implement
 
-#### In a near future I would like to implement
+### In a near future I would like to implement
 
 - Complete the set of Milestones from Code Institute to the milestones section.
+
+## Credits
+
+### Special Thanks
+
+- The testimonials found on the page were written by Jessica Norgren and Linda Molin, for taking the time to write about me.
+
+### Code
+
+### Media
+
+- Hero and About images were created by the developer.
+
+- The PNGs were downloaded from [Freepngimg](https://freepngimg.com/).
