@@ -6,6 +6,8 @@
 
 - This page was designed with the purpose of attacting job opportunities. It is part of my milestones 2 (MLS 2) for my developer course at the Code Institute. The main idea with this page is to make it a hub for my future projects and work, so recruiters and potential employers can easily reach out.
 
+- This page is also user interative. Users can submit a form directly from the website's contact for at the bottom of the page. Once that is completed they receive an alert message letting them know their message has been sent.
+
 [View the live project here](https://fdasabino.github.io/Portfolio-Project/)
 
 ## UX
@@ -94,6 +96,8 @@ I have used [Figma](https://figma.com/) for as a prototyping tool. Figma is very
 ### In a near future I would like to implement
 
 - Complete the set of Milestones from Code Institute to the milestones section.
+
+- Increment the level of interactivity of the page by creating a database of contacts and their companies.
 
 ## Credits
 
