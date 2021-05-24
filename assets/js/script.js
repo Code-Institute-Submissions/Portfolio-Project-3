@@ -34,7 +34,7 @@ closeBtns.forEach((node) => {
 
 function EnableDisable(msg) {
 	//Reference the Button.
-	var btnSubmit = document.getElementById("send");
+	var btnSubmit = document.querySelector('input[type="submit"]');
 
 	//Verify the TextBox value.
 	if (msg.value.trim() != "") {
