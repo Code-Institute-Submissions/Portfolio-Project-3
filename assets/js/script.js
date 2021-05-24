@@ -60,7 +60,7 @@ sendButton.addEventListener("click", function (event) {
 			console.log("sucess", response.status);
 			location.reload();
 			alert(
-				"Thank you for your message, I will get back to you as soon as possible"
+				"THANK YOU FOR YOUR MESSAGE, I WILL GET BACK TO YOU AS SOON AS POSSIBLE"
 			);
 		});
 });
