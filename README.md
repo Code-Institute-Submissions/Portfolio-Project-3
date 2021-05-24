@@ -91,10 +91,6 @@ All the browsers above have been tested. Out of those tested only Microsoft Inte
 
 ## Features Left to Implement
 
-#### In a near future I would like to implement:
-
-- The possibilitiy of receiving messages from visitors through the contact form on the wesite using mySQL.
-
-- Add some more fun and educational games and challenges to the page.
+#### In a near future I would like to implement
 
 - Complete the set of Milestones from Code Institute to the milestones section.
