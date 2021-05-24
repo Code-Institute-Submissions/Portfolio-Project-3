@@ -294,7 +294,7 @@
 					</div>
 				</div>
 				<div class="formBx">
-					<form name="form" id="contact-form" method="post" required>
+					<form name="form" id="contact-form" method="post">
 						<h3>Send Me a Message</h3>
 						<input
 							type="text"
@@ -315,7 +315,7 @@
 							name="msg"
 							id="msg"
 							placeholder="Your Message"
-							onchange="EnableDisable(this)"
+							onkeyup="EnableDisable(this)"
 						></textarea>
 						<input type="submit" value="send" id="send" disabled="disabled" />
 					</form>
