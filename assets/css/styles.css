@@ -8,7 +8,7 @@
 	scroll-behavior: smooth;
 }
 section {
-	padding: 3rem 4rem;
+	padding: 5rem;
 }
 
 /* <!-- NAV SECTION --> */
@@ -134,7 +134,7 @@ img {
 	max-width: 100%;
 }
 #about-img {
-	filter: saturate(2);
+	filter: grayscale(1);
 	outline: none;
 	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.8);
 }
