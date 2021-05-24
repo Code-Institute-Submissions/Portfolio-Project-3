@@ -31,6 +31,20 @@ closeBtns.forEach((node) => {
 });
 
 // Send email form
+
+function EnableDisable(msg) {
+	//Reference the Button.
+	var btnSubmit = document.getElementById("send");
+
+	//Verify the TextBox value.
+	if (msg.value.trim() != "") {
+		//Enable the TextBox when TextBox has value.
+		btnSubmit.disabled = false;
+	} else {
+		//Disable the TextBox when TextBox is empty.
+		btnSubmit.disabled = true;
+	}
+}
 let sendButton = document.getElementById("send");
 
 sendButton.addEventListener("click", function (event) {
