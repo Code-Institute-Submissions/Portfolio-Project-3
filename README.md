@@ -6,7 +6,11 @@
 
 - This page was designed with the purpose of attacting job opportunities. It is part of my milestones 2 (MLS 2) for my developer course at the Code Institute. The main idea with this page is to make it a hub for my future projects and work, so recruiters and potential employers can easily reach out.
 
-- This page is also user interative. Users can submit a form directly from the website's contact for at the bottom of the page. Once that is completed they receive an alert message letting them know their message has been sent.
+## Visitors can
+
+- Submit a form directly from the website's contact form at the bottom of the page. The form is validated using Javascript, and sent using EmailJS. Once that is completed they receive an alert message letting them know their message has been sent sucessfully.
+
+- Have access to Milestones, future and current projects.
 
 [View the live project here](https://fdasabino.github.io/Portfolio-Project/)
 
@@ -39,6 +43,12 @@
 - Bootstrap was used to assist with the responsiveness and styling of the website.
 
 [Hover.css:](https://ianlunn.github.io/Hover/)
+
+- Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+
+[EmailJS](https://www.emailjs.com/)
+
+- EmailJS was used as the email deliver API to make the messages deliver possible in the first place.
 
 - Hover.css was used on the Social Media icon.
 
