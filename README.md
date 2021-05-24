@@ -4,13 +4,7 @@
 
 ## Francisco Sabino - Personal Portfolio
 
-- This page was designed with the purpose of attacting job opportunities. It is part of my milestones 2 (MLS 2) for my developer course at the Code Institute. The main idea with this page is to make it a hub for my future projects and work, so recruiters and potential employers can easily reach out.
-
-## Visitors can
-
-- Submit a form directly from the website's contact form at the bottom of the page. The form is validated using Javascript, and sent using EmailJS. Once that is completed they receive an alert message letting them know their message has been sent sucessfully.
-
-- Have access to Milestones, future and current projects.
+- This page was designed with the purpose of attacting job opportunities. It is part of my milestone 2 (MLS 2) for my developer course at the Code Institute. The main idea with this page is to make it a hub for my future projects and work, so recruiters and potential employers can easily reach out.
 
 [View the live project here](https://fdasabino.github.io/Portfolio-Project/)
 
@@ -19,6 +13,12 @@
 - I have designed the UX in a intuitive way whereas visitors can easily find what they are looking for. The purpose of the design is provide feedback to the guests so they dont feel lost when navigating through the landing page.
 
 - The Landing Page was divided in several sections that are easy to be navigated thanks to a dynamic sticky navigation that follows the user up and down the page.
+
+## Visitors can
+
+- Submit a form directly from the website's contact form at the bottom of the page. The form is validated using Javascript, and sent using EmailJS. Once that is completed they receive an alert message letting them know their message has been sent sucessfully.
+
+- Have access to Milestones, future and current projects.
 
 ### Colour Scheme and Imagery
 
