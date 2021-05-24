@@ -8,7 +8,7 @@
 	scroll-behavior: smooth;
 }
 section {
-	padding: 5rem;
+	padding: 3rem 4rem;
 }
 
 /* <!-- NAV SECTION --> */
@@ -101,7 +101,6 @@ header.sticky ul li a {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
-
 .heading {
 	width: 100%;
 	text-align: center;
@@ -387,10 +386,6 @@ img {
 /* Responsivness */
 
 @media (max-width: 991px) {
-	* {
-		margin: 0;
-		padding: 0;
-	}
 	header,
 	header.sticky {
 		padding: 20px 50px;
@@ -476,7 +471,7 @@ img {
 	}
 	.work .content .workBx {
 		width: 100%;
-		padding: 4rem;
+		padding: 2rem;
 	}
 	.testimonial .content .testimonialBx {
 		max-width: calc(100% - 19px);
@@ -542,14 +537,5 @@ img {
 	}
 	.heading h2 {
 		padding-bottom: 1rem;
-	}
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-	only screen and (-o-min-device-pixel-ratio: 3/2),
-	only screen and (min--moz-device-pixel-ratio: 1.5),
-	only screen and (min-device-pixel-ratio: 1.5) {
-	html,
-	body {
-		width: 100%;
 	}
 }
