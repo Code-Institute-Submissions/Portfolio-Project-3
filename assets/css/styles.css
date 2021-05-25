@@ -3,9 +3,14 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 	font-family: "Questrial", sans-serif;
-	overflow-x: hidden;
 	scroll-behavior: smooth;
+}
+html,
+body {
+	overflow-x: hidden;
+	width: 100%;
 }
 section {
 	padding: 5rem;
@@ -134,6 +139,15 @@ header.sticky ul li a {
 }
 
 /* about section */
+.content-about {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#about-txt {
+	font-size: 1.2;
+}
 #about-img {
 	filter: grayscale(1);
 	outline: none;
@@ -497,6 +511,12 @@ header.sticky ul li a {
 	}
 	.contactInfo {
 		margin: 20px 0;
+	}
+	.content-about {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
 	}
 }
 
