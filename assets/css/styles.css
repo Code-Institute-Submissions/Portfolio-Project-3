@@ -145,9 +145,6 @@ header.sticky ul li a {
 	align-items: center;
 }
 
-#about-txt {
-	font-size: 1.2;
-}
 #about-img {
 	filter: grayscale(1);
 	outline: none;
