@@ -194,10 +194,6 @@ header.sticky ul li a {
 }
 
 /* work modal section */
-.heading > button {
-	position: relative;
-	top: 6rem;
-}
 .js-openbtn {
 	background: #d4873d;
 	color: white;
