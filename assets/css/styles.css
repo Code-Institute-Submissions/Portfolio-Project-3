@@ -194,7 +194,7 @@ header.sticky ul li a {
 }
 
 /* work modal section */
-button {
+.heading > button {
 	position: relative;
 	top: 6rem;
 }
