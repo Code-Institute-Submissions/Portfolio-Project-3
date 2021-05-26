@@ -12,6 +12,8 @@
 			name="keywords"
 			content="Fullstack, web, developer, front-end, programming"
 		/>
+		<!-- Easy dots CSS -->
+		<link rel="stylesheet" href="./assets/css/easyScrollDots.min.css" />
 		<!-- FontAwesome CSS -->
 		<link
 			rel="stylesheet"
@@ -44,15 +46,23 @@
 			</ul>
 		</header>
 		<main>
-			<section class="banner" id="home">
+			<section
+				class="banner scroll-indicator"
+				id="home"
+				data-scroll-indicator-title="Home"
+			>
 				<div class="textBx">
 					<h2>Hello, I'm<br /><span>Francisco Sabino</span></h2>
 					<h3>Fullstack Web Developer</h3>
-					<a href="#about" class="btn" id="about">About Me</a>
+					<a href="#about" class="btn">About Me</a>
 				</div>
 			</section>
 			<!-- ABOUT SECTION -->
-			<section class="about">
+			<section
+				class="about scroll-indicator"
+				id="about"
+				data-scroll-indicator-title="About"
+			>
 				<div class="heading">
 					<h2>About Me</h2>
 				</div>
@@ -91,7 +101,11 @@
 				</div>
 			</section>
 			<!-- MY PROJECTS SECTION -->
-			<section class="services" id="services">
+			<section
+				class="services scroll-indicator"
+				id="services"
+				data-scroll-indicator-title="Milestones"
+			>
 				<div class="heading text-white">
 					<h2>Milestones</h2>
 					<h5>
@@ -153,7 +167,11 @@
 				</div>
 			</section>
 			<!-- WORK SECTION -->
-			<section class="work" id="work">
+			<section
+				class="work scroll-indicator"
+				id="work"
+				data-scroll-indicator-title="Latest Work"
+			>
 				<div class="heading">
 					<h2>My Latest Work</h2>
 					<h5>
@@ -220,7 +238,11 @@
 				</div>
 			</section>
 			<!-- TESTIMONIALS SECTION -->
-			<section class="testimonial" id="testimonial">
+			<section
+				class="testimonial scroll-indicator"
+				id="testimonial"
+				data-scroll-indicator-title="Testimonials"
+			>
 				<div class="heading">
 					<h2>Testimonials</h2>
 					<h5>
@@ -271,7 +293,11 @@
 				</div>
 			</section>
 			<!-- CONTACT SECTION -->
-			<section class="contact" id="contact">
+			<section
+				class="contact scroll-indicator"
+				id="contact"
+				data-scroll-indicator-title="Contact"
+			>
 				<div class="heading text-white"></div>
 				<div class="content">
 					<div class="contactInfo">
@@ -347,6 +373,22 @@
 			</span>
 		</section>
 		<script src="./assets/js/script.js"></script>
+		<script src="./assets/js/easyScrollDots.min.js"></script>
+		<script>
+			easyScrollDots({
+				// sets to true if you have a fixed navigation
+				fixedNav: false,
+
+				// unique ID of your fixed navigation
+				fixedNavId: "",
+
+				// set to true if your navigation is only sticky when scrolling up
+				fixedNavUpward: false,
+
+				// the amount of pixels you wish to offset the scroll amount by
+				offset: 30,
+			});
+		</script>
 		<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 		<script>
 			(function () {
