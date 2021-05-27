@@ -29,7 +29,7 @@
 	height: 10px;
 	position: relative;
 	border-radius: 50%;
-	border: 1px solid #d4873d;
+	border: 1px solid #03ac6e;
 	background: rgba(0, 0, 0, 0.1);
 	margin: 30px 0 10px 0;
 	cursor: pointer;
@@ -37,7 +37,7 @@
 	will-change: transition;
 }
 .scroll-indicator-controller > div span {
-	color: #d4873d;
+	color: #00ffa2;
 	position: absolute;
 	right: calc(100% + 8px);
 	white-space: nowrap;
@@ -74,7 +74,7 @@
 	}
 }
 .scroll-indicator-controller > div.active {
-	background: #d4863db7;
+	background: #00ffa2;
 	border-color: rgba(0, 0, 0, 0.25);
 }
 @supports (-ms-ime-align: auto) {

@@ -22,7 +22,7 @@
 
 ### Colour Scheme and Imagery
 
-- The colours chosen for the page were mainly black and white to bring the depth and drama on the imagery, with a touch of gold ish on links and buttons.
+- The colours chosen for the page were mainly black and white to bring the depth and drama on the imagery, with a touch of Light vibrant green (#00ffa2) on links and buttons to bring out the contrast to the eye.
 
 ### Typhography
 

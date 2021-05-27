@@ -17,7 +17,7 @@ section {
 }
 .btn {
 	position: relative;
-	background: #d4873d;
+	background: #0b8457;
 	display: inline-block;
 	color: #fff;
 	margin-top: 1.5rem;
@@ -72,7 +72,7 @@ header {
 	transition: 0.5s;
 }
 header a:hover {
-	color: #d4873d;
+	color: #00ffa2;
 }
 header.sticky {
 	background: rgba(0, 0, 0, 0.8);
@@ -80,7 +80,7 @@ header.sticky {
 	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 header.sticky a:hover {
-	color: #d4873d;
+	color: #00ffa2;
 }
 header .logo {
 	color: #fff;
@@ -192,7 +192,7 @@ header.sticky ul li a {
 
 /* work modal section */
 .js-openbtn {
-	background: #d4873d;
+	background: #0b8457;
 	color: white;
 }
 .js-openbtn a {
@@ -347,7 +347,7 @@ header.sticky ul li a {
 }
 .formBx form input[type="submit"] {
 	max-width: 100px;
-	background: #d4873d;
+	background: #0b8457;
 	cursor: pointer;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -391,7 +391,7 @@ header.sticky ul li a {
 }
 .contactInfoBx .box .text h3 {
 	font-weight: 500;
-	color: #d4873d;
+	color: #00ffa2;
 }
 .copyright {
 	background: #000;
