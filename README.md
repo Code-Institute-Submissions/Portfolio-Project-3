@@ -52,6 +52,10 @@
 
 - Hover.css was used on the Social Media icon.
 
+[EasyScrollDots](https://github.com/Superhands89/EasyScrollDots)
+
+- EasyScrollDots was incorporated to facilitate navigation on the page. Allowing user to navigate from where their position might be to a different section of the page.
+
 [Google Fonts:](https://fonts.google.com/)
 
 - Google fonts were used to import the 'Questrial' font into the style.css file which is used on the project.
@@ -107,7 +111,7 @@ I have used [Figma](https://figma.com/) for as a prototyping tool. Figma is very
 
 - Complete the set of Milestones from Code Institute to the milestones section.
 
-- Increment the level of interactivity of the page by creating a database of contacts and their companies.
+- Add some more interactivity to the page, allowing more user input, through light and dark mode etc.
 
 ## Credits
 

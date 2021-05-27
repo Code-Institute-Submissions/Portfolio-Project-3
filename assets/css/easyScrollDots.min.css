@@ -11,7 +11,7 @@
 */
 .scroll-indicator-controller {
 	position: fixed;
-	top: 35vh;
+	top: 50vh;
 	transform: translate(0, -50%);
 	right: 10px;
 	z-index: 999;
@@ -30,10 +30,8 @@
 	position: relative;
 	border-radius: 50%;
 	border: 1px solid #d4873d;
-	background: rgba(0, 0, 0, 0.25);
-	margin-top: 35px;
-	margin-right: 10px;
-	padding: 5px;
+	background: rgba(0, 0, 0, 0.1);
+	margin: 30px 0 10px 0;
 	cursor: pointer;
 	transition: background 0.4s ease;
 	will-change: transition;
@@ -44,8 +42,8 @@
 	right: calc(100% + 8px);
 	white-space: nowrap;
 	top: 50%;
-	font-family: "Questrial", sans-serif;
-	font-size: 15px;
+	font-family: arial, sans-serif;
+	font-size: 16px;
 	line-height: 17px;
 	width: 0;
 	overflow: hidden;
@@ -63,6 +61,7 @@
 	content: "-----";
 	padding-left: 5px;
 	letter-spacing: -2px;
+	font-family: arial, sans-serif;
 	vertical-align: text-top;
 	line-height: 14px;
 }
@@ -75,9 +74,7 @@
 	}
 }
 .scroll-indicator-controller > div.active {
-	height: 15px;
-	width: 15px;
-	background: #d4873d;
+	background: #d4863db7;
 	border-color: rgba(0, 0, 0, 0.25);
 }
 @supports (-ms-ime-align: auto) {
