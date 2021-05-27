@@ -36,12 +36,16 @@
 		<header>
 			<a href="#" class="logo"><i class="fa fa-code"></i></a>
 			<div class="toggle" onclick="toggleMenu();"></div>
-			<ul class="menu">
+			<ul class="menu active">
 				<li><a href="#home" onclick="toggleMenu();">Home</a></li>
 				<li><a href="#about" onclick="toggleMenu();">About</a></li>
-				<li><a href="#services" onclick="toggleMenu();">Milestones</a></li>
+				<li>
+					<a href="#services" onclick="toggleMenu();">Milestones</a>
+				</li>
 				<li><a href="#work" onclick="toggleMenu();">Work</a></li>
-				<li><a href="#testimonial" onclick="toggleMenu();">Testimonials</a></li>
+				<li>
+					<a href="#testimonial" onclick="toggleMenu();">Testimonials</a>
+				</li>
 				<li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
 			</ul>
 		</header>
@@ -279,7 +283,7 @@
 								></button>
 							</div>
 							<div class="carousel-inner">
-								<div class="carousel-item w-100 active">
+								<div class="carousel-item active">
 									<p>
 										"Since 2018, I have the pleasure of having Mr Francisco
 										Sabino in my hotel team, Haymarket, Stockholm. He holds the
@@ -305,7 +309,7 @@
 										</span>
 									</h3>
 								</div>
-								<div class="carousel-item w-100">
+								<div class="carousel-item">
 									<p>
 										"Many design teams use placeholder text, whether it’s Lorem
 										ipsum or some rough copy the designer or PM drafted to give
@@ -336,29 +340,9 @@
 				<div class="heading text-white"></div>
 				<div class="content">
 					<div class="contactInfo">
-						<h3>Contact Info</h3>
+						<h3><i class="fa fa-envelope"></i> Contact Info</h3>
 						<div class="contactInfoBx">
 							<div class="box">
-								<div class="icon">
-									<i class="fa fa-map-marker"></i>
-								</div>
-								<div class="text">
-									<h3>Address:</h3>
-									<p>
-										Hildebrandsvägen 20A, 16856 <br />Bromma, Stockholm <br />
-										Sweden
-									</p>
-								</div>
-								<div class="icon">
-									<i class="fa fa-phone"></i>
-								</div>
-								<div class="text">
-									<h3>Phone Number:</h3>
-									<p>+46 (0) 76-241-65-29</p>
-								</div>
-								<div class="icon">
-									<i class="fa fa-envelope"></i>
-								</div>
 								<div class="text">
 									<h3>Email Address:</h3>
 									<p>fdasabino@gmail.com</p>
@@ -400,6 +384,7 @@
 				Copyright <i class="fa fa-copyright"></i> 2021. All Rights Reserved
 			</h4>
 			<span class="social">
+				<a id="toTop" href="#1"><div class="to-top"></div></a>
 				<a
 					href="https://www.linkedin.com/in/francisco-sabino-a1983a205/"
 					target="_blank"
