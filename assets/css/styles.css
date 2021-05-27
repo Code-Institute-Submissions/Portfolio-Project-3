@@ -286,7 +286,7 @@ header.sticky ul li a {
 }
 .testimonial .content .testimonialBx p {
 	color: #fff;
-	font-size: 1.3rem;
+	font-size: 1rem;
 	font-style: italic;
 	font-weight: 300;
 }
@@ -491,7 +491,7 @@ header.sticky ul li a {
 	}
 	.work .content .workBx {
 		width: 100%;
-		padding: 2rem;
+		padding: 1rem;
 	}
 	.testimonial .content .testimonialBx {
 		max-width: calc(100% - 19px);

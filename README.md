@@ -121,6 +121,8 @@ I have used [Figma](https://figma.com/) for as a prototyping tool. Figma is very
 
 ### Code
 
+- Shoutout to EmailJS for making possible to send messages directly from the page.
+
 ### Media
 
 - Hero and About images were created by the developer.
