@@ -32,19 +32,15 @@
 
 - The colours chosen for the page were mainly black and white to bring the depth and drama on the imagery, with a touch of Light vibrant green on links and buttons to bring out the contrast to the eye.
 
-Color Palette
-
 ### Typhography
 
 - The font I have chosen for the page is Questrial. It was downloaded from Google Fonts. It gives the page a modern and classy look.
 
 - ### Imagery
 
-- Imagery plays a big role on the page. The large, background hero image brigs depth and catch the visitors eye.
+- Imagery plays a big role on the page. The large, background hero image brings depth and catch the visitors eye.
 
 ### Wireframing
-
-I have used [Figma](https://figma.com/) for as a prototyping tool. Figma is very intuitive and easy to use. The program gives you a great look on how the page will come to look like as well as page connections that demonstrate the way the page should behave.
 
 - Desktop Home Page - [View](https://www.figma.com/proto/YIKdCz5k5o1l4NaIjVVt1h/Francisco-Sabino-Portfolio?node-id=7%3A191)
 
@@ -60,7 +56,7 @@ I have used [Figma](https://figma.com/) for as a prototyping tool. Figma is very
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 - [JavaScript](https://en.wikipedia.org/wiki/javascript)
 
-### Frameworks and Libraries
+### Frameworks, Libraries & Programs Used
 
 [Bootstrap v5.0.0 :](https://getbootstrap.com/)
 
@@ -92,6 +88,9 @@ I have used [Figma](https://figma.com/) for as a prototyping tool. Figma is very
 
 - GitHub is used to store the projects code after being pushed from VScode.
 
+[Figma](https://figma.com/)
+I have used for as a prototyping tool. Figma is very intuitive and easy to use. The program gives you a great look on how the page will come to look like as well as page connections that demonstrate the way the page should behave.
+
 ## Testing
 
 ### Validating
@@ -116,11 +115,13 @@ I have used [Figma](https://figma.com/) for as a prototyping tool. Figma is very
 
 [Microsoft Edge](https://www.microsoft.com/en-us/edge)
 
-[Internet Explorer](https://support.microsoft.com/en-us/windows/internet-explorer-downloads-d49e1f0d-571c-9a7b-d97e-be248806ca70)
+### Further Testing
 
-- All the browsers above have been tested. Out of those tested only Microsoft Internet explorer have presented anomalies.
+- The Website was tested on Google Chrome, Opera, Microsoft Edge, Mozilla Firefox and Safari browsers.
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhone11.
+- Friends were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-## Features Left to Implement
+## Features Left to Implement(I'm here)
 
 ### In a near future I would like to implement
 
