@@ -49,7 +49,6 @@ function validate() {
 			.send("service_6pcnbro", "template_nktigru", tempParams)
 			.then(function (response) {
 				console.log("sucess", response.status);
-				location.reload();
 			});
 	});
 	error_message.style.padding = "10px";
