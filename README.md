@@ -8,29 +8,53 @@
 
 [View the live project here](https://fdasabino.github.io/Portfolio-Project/)
 
-## UX
+## User Experience (UX)
 
-- I have designed the UX in a intuitive way whereas visitors can easily find what they are looking for. The purpose of the design is provide feedback to the guests so they dont feel lost when navigating through the landing page.
-
-- The Landing Page was divided in several sections that are easy to be navigated thanks to a dynamic sticky navigation that follows the user up and down the page.
-
-## Visitors can
+### Visitors can
 
 - Submit a form directly from the website's contact form at the bottom of the page. The form is validated using Javascript, and sent using EmailJS. Once that is completed they receive an alert message letting them know their message has been sent sucessfully.
 
 - Have access to Milestones, future and current projects.
 
+#### First Time Visitor Goals
+
+1. As a First Time Visitor, I want to easily understand the main purpose of the page and navigate to the information needed.
+2. As a First Time Visitor, I want to look for modern UX and a not very home page where an user gets constant feedback of their position on the page.
+
+#### Returning Visitor Goals
+
+1. As a Returning Visitor, I want to find more information about milestones and development.
+2. As a Returning Visitor, I want to find updated projects section and more information about current developments.
+
+## Design
+
 ### Colour Scheme and Imagery
 
-- The colours chosen for the page were mainly black and white to bring the depth and drama on the imagery, with a touch of Light vibrant green (#00ffa2) on links and buttons to bring out the contrast to the eye.
+- The colours chosen for the page were mainly black and white to bring the depth and drama on the imagery, with a touch of Light vibrant green on links and buttons to bring out the contrast to the eye.
+
+Color Palette
 
 ### Typhography
 
 - The font I have chosen for the page is Questrial. It was downloaded from Google Fonts. It gives the page a modern and classy look.
 
+- ### Imagery
+
+- Imagery plays a big role on the page. The large, background hero image brigs depth and catch the visitors eye.
+
+### Wireframing
+
+I have used [Figma](https://figma.com/) for as a prototyping tool. Figma is very intuitive and easy to use. The program gives you a great look on how the page will come to look like as well as page connections that demonstrate the way the page should behave.
+
+- Desktop Home Page - [View](https://www.figma.com/proto/YIKdCz5k5o1l4NaIjVVt1h/Francisco-Sabino-Portfolio?node-id=7%3A191)
+
+- Tablet Home Page -[View](https://www.figma.com/proto/YIKdCz5k5o1l4NaIjVVt1h/Francisco-Sabino---Portfolio?node-id=7%3A199&scaling=min-zoom)
+
+- Mobile Home Page -[View](https://www.figma.com/proto/YIKdCz5k5o1l4NaIjVVt1h/Francisco-Sabino-Portfolio?node-id=0%3A1)
+
 ## Technologies Used
 
-### Languages
+### Languages Used
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
@@ -68,29 +92,15 @@
 
 - GitHub is used to store the projects code after being pushed from VScode.
 
-#### Wireframing
-
-I have used [Figma](https://figma.com/) for as a prototyping tool. Figma is very intuitive and easy to use. The program gives you a great look on how the page will come to look like as well as page connections that demonstrate the way the page should behave.
-
-- Desktop Home Page - [View](https://www.figma.com/proto/YIKdCz5k5o1l4NaIjVVt1h/Francisco-Sabino-Portfolio?node-id=7%3A191)
-
-- Tablet Home Page -[View](https://www.figma.com/proto/YIKdCz5k5o1l4NaIjVVt1h/Francisco-Sabino---Portfolio?node-id=7%3A199&scaling=min-zoom)
-
-- Mobile Home Page -[View](https://www.figma.com/proto/YIKdCz5k5o1l4NaIjVVt1h/Francisco-Sabino-Portfolio?node-id=0%3A1)
-
 ## Testing
 
 ### Validating
 
-- The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+- The W3C Markup Validator, W3C CSS Validator and JS Hint Services were used to validate the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-- <a href="http://jigsaw.w3.org/css-validator/check/referer">
-       <img style="border:0;width:88px;height:31px"
-           src="http://jigsaw.w3.org/css-validator/images/vcss"
-           alt="Valid CSS!" />
-   </a>
+- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/fdasabino/Portfolio-Project/blob/master/assets/images/Validator/htmlvalidator.jpg)
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/fdasabino/Portfolio-Project/blob/master/assets/images/Validator/CSSvalidator.jpg)
 
 ### Different Browsers
 
