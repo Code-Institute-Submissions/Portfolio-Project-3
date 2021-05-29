@@ -509,7 +509,6 @@ header.sticky ul li a {
 		background: rgba(0, 0, 0, 1);
 		transition: 0.5s ease-in-out;
 		z-index: 999;
-		border-top: 1px solid #111;
 	}
 
 	.menu.active {
@@ -532,7 +531,7 @@ header.sticky ul li a {
 		cursor: pointer;
 	}
 
-	.toggle:active {
+	.toggle.active {
 		width: 40px;
 		height: 40px;
 		background: url(../images/close.png);
