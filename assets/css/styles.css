@@ -7,11 +7,13 @@
 	font-family: "Questrial", sans-serif;
 	scroll-behavior: smooth;
 }
+
 html,
 body {
 	overflow-x: hidden;
 	width: 100%;
 }
+
 section {
 	padding: 2rem 3rem;
 }
@@ -27,34 +29,42 @@ section {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
+
 .heading {
 	width: 100%;
 	text-align: center;
 	margin-bottom: 30px;
 	color: #111;
 }
+
 .heading h2 {
 	font-weight: 600;
 	padding-bottom: 3rem;
 }
+
 .content {
 	display: flex;
 	justify-content: space-between;
 }
+
 .contentBx {
 	padding: 2.5rem;
 }
+
 .contentBx h3 {
 	font-size: 2rem;
 }
+
 .contentBx a {
 	text-decoration: none;
 	color: #111;
 }
+
 .w50 {
 	min-width: 50%;
 	text-align: justify;
 }
+
 img {
 	max-width: 100%;
 }
@@ -72,16 +82,20 @@ header {
 	align-items: center;
 	transition: 0.5s;
 }
+
 header a:hover {
 	color: #00ffa2;
 }
+
 header.sticky {
 	background: rgba(0, 0, 0, 1);
 	padding: 40px 100px;
 }
+
 header.sticky a:hover {
 	color: #00ffa2;
 }
+
 header .logo {
 	color: #fff;
 	font-size: 2rem;
@@ -90,17 +104,21 @@ header .logo {
 	font-weight: 700;
 	letter-spacing: 2px;
 }
+
 header.stycky .logo:hover {
 	color: #fff;
 }
+
 header ul {
 	position: relative;
 	display: flex;
 }
+
 header ul li {
 	position: relative;
 	list-style: none;
 }
+
 header ul li a {
 	position: relative;
 	display: inline-block;
@@ -108,6 +126,7 @@ header ul li a {
 	color: #fff;
 	text-decoration: none;
 }
+
 header.sticky ul li a {
 	color: #fff;
 }
@@ -122,16 +141,19 @@ header.sticky ul li a {
 	justify-content: space-between;
 	align-items: center;
 }
+
 .banner h2 {
 	font-size: 2.5rem;
 	color: #fff;
 	font-weight: 500;
 	line-height: 1.5em;
 }
+
 .banner h2 span {
 	font-size: 1.5em;
 	font-weight: 700;
 }
+
 .banner h3 {
 	font-size: 1.5rem;
 	color: #fff;
@@ -156,14 +178,17 @@ header.sticky ul li a {
 .services {
 	background: #111;
 }
+
 .servicesBx a {
 	text-decoration: none;
 	color: #fff;
 }
+
 .heading .white {
 	color: #fff;
 	text-align: center;
 }
+
 .services .content {
 	display: flex;
 	justify-content: center;
@@ -171,6 +196,7 @@ header.sticky ul li a {
 	flex-direction: row;
 	padding: 0 2rem;
 }
+
 .services .content .servicesBx {
 	padding: 40px 20px;
 	background: #222;
@@ -180,12 +206,15 @@ header.sticky ul li a {
 	text-align: center;
 	transition: 0.5s;
 }
+
 .services .content .servicesBx:hover {
 	background: #333;
 }
+
 .services .content .servicesBx img {
 	filter: invert(1);
 }
+
 .services .content .servicesBx h2 {
 	font-size: 1.5rem;
 	font-weight: 600;
@@ -215,6 +244,7 @@ header.sticky ul li a {
 	margin-top: 10px;
 	box-shadow: none;
 }
+
 #modal-bg {
 	background-color: rgba(0, 0, 0, 0.45);
 	position: fixed;
@@ -226,10 +256,12 @@ header.sticky ul li a {
 	opacity: 0;
 	transition: opacity 0.25s ease-in-out, z-index 0.25s ease-in-out;
 }
+
 #modal-bg.active {
 	opacity: 1;
 	z-index: 10;
 }
+
 #modal-box {
 	background-color: rgb(136, 133, 133);
 	position: relative;
@@ -243,50 +275,61 @@ header.sticky ul li a {
 	z-index: -10;
 	transition: opacity 0.25s ease-in-out, z-index 0.25s ease-in-out;
 }
+
 #modal-box.active {
 	opacity: 1;
 	z-index: 11;
 	margin: 0 auto;
 }
+
 /* Work section */
 .work .content {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
+
 .work .content .workBx {
 	width: 50%;
 	padding: 2rem;
 }
+
 .work .content .workBx img {
 	max-width: 100%;
 }
+
 .workBx a {
 	text-align: center;
 	text-decoration: none;
 }
+
 .workBx h5 {
 	color: #111;
 	margin-top: 10px;
 }
+
 #gitbutton {
 	top: 8rem;
 }
+
 /* testimonial section */
 .testimonial {
 	background: #ccc;
 }
+
 .testimonial .content {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
+
 .testimonial .content .testimonialBx {
 	max-width: calc(80% - 50px);
 	padding: 20px 30px;
 	margin: 20px;
 	background: #333;
 }
+
 .testimonial .content .testimonialBx p {
 	color: #fff;
 	padding: 20px;
@@ -294,6 +337,7 @@ header.sticky ul li a {
 	font-style: italic;
 	font-weight: 300;
 }
+
 .testimonial .content .testimonialBx h3 {
 	margin-top: 40px;
 	text-align: end;
@@ -302,6 +346,7 @@ header.sticky ul li a {
 	font-size: 1.5rem;
 	font-weight: 400;
 }
+
 .testimonial .content .testimonialBx h3 span {
 	font-size: 1.2rem;
 	font-weight: 300;
@@ -316,14 +361,17 @@ header.sticky ul li a {
 	background: #111;
 	padding: 2rem;
 }
+
 .formBx {
 	min-width: 60%;
 }
+
 .formBx form {
 	display: flex;
 	flex-direction: column;
 	padding: 3rem;
 }
+
 .formBx form h3,
 .contactInfo h3 {
 	color: #fff;
@@ -331,6 +379,7 @@ header.sticky ul li a {
 	font-weight: 500;
 	margin-bottom: 0.5rem;
 }
+
 .formBx form input,
 .formBx form textarea {
 	resize: none;
@@ -344,13 +393,16 @@ header.sticky ul li a {
 	color: #fff;
 	text-align: center;
 }
+
 .formBx form input::placeholder,
 .formBx form textarea::placeholder {
 	color: #999;
 }
+
 .formBx form textarea {
 	min-height: 200px;
 }
+
 .formBx form input[type="submit"] {
 	max-width: 100px;
 	background: #0b8457;
@@ -358,6 +410,7 @@ header.sticky ul li a {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
+
 .contactInfo {
 	min-width: 40%;
 	display: flex;
@@ -365,26 +418,32 @@ header.sticky ul li a {
 	justify-content: center;
 	align-items: center;
 }
+
 .contactInfoBx {
 	position: relative;
 }
+
 .box {
 	text-align: left;
 }
+
 .social {
 	color: #fff;
 }
+
 .social a i {
 	font-size: 2rem;
 	display: flex;
 	justify-content: center;
 }
+
 .contactInfoBx .box {
 	position: relative;
 	padding: 20px 0;
 	display: flex;
 	flex-direction: column;
 }
+
 .contactInfoBx .box .icon {
 	min-width: 40px;
 	padding-top: 5px;
@@ -394,6 +453,7 @@ header.sticky ul li a {
 	align-items: flex-start;
 	font-size: 2rem;
 }
+
 .contactInfoBx .box .text {
 	display: flex;
 	margin-left: 20px;
@@ -402,10 +462,12 @@ header.sticky ul li a {
 	font-weight: 300;
 	flex-direction: column;
 }
+
 .contactInfoBx .box .text h3 {
 	font-weight: 500;
 	color: #00ffa2;
 }
+
 #error_message {
 	margin-bottom: 20px;
 	padding: 0px;
@@ -414,6 +476,7 @@ header.sticky ul li a {
 	font-size: 2rem;
 	transition: all 0.5s ease;
 }
+
 .copyright {
 	background: #000;
 	color: #fff;
@@ -421,17 +484,19 @@ header.sticky ul li a {
 	padding: 1.5rem;
 	font-size: 0.8rem;
 }
+
 .fa-linkedin {
 	padding-top: 10px;
 }
-/* Responsivness */
 
+/* Responsive */
 @media (max-width: 991px) {
 	header,
 	header.sticky {
 		padding: 20px 50px;
 		z-index: 1000;
 	}
+
 	.menu {
 		position: fixed;
 		top: 75px;
@@ -446,24 +511,18 @@ header.sticky ul li a {
 		z-index: 999;
 		border-top: 1px solid #111;
 	}
+
 	.menu.active {
 		left: 0;
 	}
+
 	header ul li a {
 		color: #fff;
 		font-size: 2rem;
 		margin: 10px;
 	}
+
 	.toggle {
-		width: 40px;
-		height: 40px;
-		background: url(../images/close.png);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: 25px;
-		cursor: pointer;
-	}
-	.toggle.active {
 		width: 40px;
 		height: 40px;
 		background: url(../images/menu.png);
@@ -472,61 +531,87 @@ header.sticky ul li a {
 		background-size: 30px;
 		cursor: pointer;
 	}
+
+	.toggle:active {
+		width: 40px;
+		height: 40px;
+		background: url(../images/close.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 25px;
+		cursor: pointer;
+	}
+
 	header.stycky .toggle {
 		filter: invert(1);
 	}
+
 	section {
 		padding: 100px 50px;
 	}
+
 	.banner {
 		padding: 150px 50px 100px;
 	}
+
 	.banner h2 {
 		font-size: 1.5rem;
 	}
+
 	.banner h3 {
 		font-size: 1.2rem;
 	}
+
 	.btn {
 		margin-top: 0.5rem;
 		padding: 0.5rem 1.5rem;
 		font-size: 1rem;
 	}
+
 	.heading h2 {
 		font-size: 1.6rem;
 	}
+
 	.contentBx h3 {
 		text-align: center;
 		font-size: 1.5rem;
 	}
+
 	.content {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 	}
+
 	.w50 {
 		margin-bottom: 20px;
 	}
+
 	.services .content .servicesBx {
 		margin: 10px;
 	}
+
 	.work .content .workBx {
 		width: 100%;
 		padding: 1rem;
 	}
+
 	.testimonial .content .testimonialBx {
 		max-width: calc(100% - 19px);
 		padding: 40px 20px;
 		margin: 10px;
 		background: #333;
 	}
+
 	.testimonial .content .testimonialBx h3 {
 		margin-top: 15px;
 		font-size: 1.2rem;
 	}
+
 	.testimonial .content .testimonialBx p {
 		font-size: 1.2rem;
 	}
+
 	.contactInfo {
 		margin: 20px 0;
 	}
@@ -544,32 +629,40 @@ header.sticky ul li a {
 	header.sticky {
 		padding: 20px 20px;
 	}
+
 	.banner {
 		padding: 130px 20px 90px;
 	}
+
 	.banner h2 span {
 		font-size: 1em;
 	}
+
 	.banner h3 {
 		font-size: 1rem;
 	}
+
 	.btn {
 		margin-top: 0.5rem;
 		padding: 0.5rem 0.5rem;
 		font-size: 0.8rem;
 	}
+
 	.contentBx h3 {
 		font-size: 1.3rem;
 	}
+
 	section {
 		padding: 100px 20px;
 	}
+
 	.formBx form h3,
 	.contactInfo h3 {
 		font-size: 1.7rem;
 		margin: 0.5rem 0;
 		text-align: center;
 	}
+
 	.formBx form p,
 	.contactInfo p {
 		text-align: center;
@@ -580,9 +673,11 @@ header.sticky ul li a {
 		text-align: center;
 		font-size: 1.2rem;
 	}
+
 	.banner {
 		align-items: flex-end;
 	}
+
 	.heading h2 {
 		padding-bottom: 1rem;
 	}

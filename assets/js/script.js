@@ -31,26 +31,26 @@ closeBtns.forEach((node) => {
 });
 
 // Send email form
+let sendButton = document.getElementById("myform");
+
+sendButton.addEventListener("submit", function (event) {
+	event.preventDefault(sendButton);
+	var tempParams = {
+		from_name: document.getElementById("name").value,
+		from_email: document.getElementById("email").value,
+		message: document.getElementById("message").value,
+	};
+	emailjs
+		.send("service_6pcnbro", "template_nktigru", tempParams)
+		.then(function (response) {
+			console.log("sucess", response.status);
+		});
+});
 function validate() {
 	let name = document.getElementById("name").value;
 	let email = document.getElementById("email").value;
 	let message = document.getElementById("message").value;
 	let error_message = document.getElementById("error_message");
-	let sendButton = document.getElementById("myform");
-
-	sendButton.addEventListener("submit", function (event) {
-		event.preventDefault(sendButton);
-		var tempParams = {
-			from_name: document.getElementById("name").value,
-			from_email: document.getElementById("email").value,
-			message: document.getElementById("message").value,
-		};
-		emailjs
-			.send("service_6pcnbro", "template_nktigru", tempParams)
-			.then(function (response) {
-				console.log("sucess", response.status);
-			});
-	});
 	error_message.style.padding = "10px";
 
 	var text;
