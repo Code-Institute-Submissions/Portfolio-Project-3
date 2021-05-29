@@ -86,6 +86,11 @@ I have used [Figma](https://figma.com/) for as a prototyping tool. Figma is very
 
 - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- <a href="http://jigsaw.w3.org/css-validator/check/referer">
+       <img style="border:0;width:88px;height:31px"
+           src="http://jigsaw.w3.org/css-validator/images/vcss"
+           alt="Valid CSS!" />
+   </a>
 
 ### Different Browsers
 
