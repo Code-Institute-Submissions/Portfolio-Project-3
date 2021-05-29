@@ -224,7 +224,9 @@
 					</div>
 				</div>
 				<div class="heading">
-					<button type="button" class="btn js-open">Find me on Github</button>
+					<button type="button" class="btn js-open" id="gitbutton">
+						Find me on Github
+					</button>
 					<div id="modal-bg"></div>
 					<div id="modal-box">
 						<h1>My Journey</h1>
@@ -351,29 +353,13 @@
 						</div>
 					</div>
 					<div class="formBx">
-						<form name="form" id="contact-form" method="post">
-							<h3>Send Me a Message</h3>
-							<input
-								type="text"
-								name="name"
-								id="fromName"
-								placeholder="Full Name"
-								required
-							/>
-							<input
-								type="text"
-								name="email"
-								id="fromEmail"
-								placeholder="Your Email Address"
-								required
-							/>
-							<textarea
-								name="msg"
-								id="msg"
-								placeholder="Your Message"
-								onkeyup="EnableDisable(this)"
-							></textarea>
-							<input type="submit" value="send" id="send" disabled="disabled" />
+						<form id="myform" onsubmit="return validate();">
+							<h3>Send me a Message</h3>
+							<div id="error_message"></div>
+							<input type="text" placeholder="Name" id="name" />
+							<input type="text" placeholder="Email" id="email" />
+							<textarea placeholder="Message" id="message"></textarea>
+							<input type="submit" value="send" />
 						</form>
 					</div>
 				</div>
@@ -384,7 +370,6 @@
 				Copyright <i class="fa fa-copyright"></i> 2021. All Rights Reserved
 			</h4>
 			<span class="social">
-				<a id="toTop" href="#1"><div class="to-top"></div></a>
 				<a
 					href="https://www.linkedin.com/in/francisco-sabino-a1983a205/"
 					target="_blank"
@@ -412,7 +397,7 @@
 		<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 		<script>
 			(function () {
-				emailjs.init("user_HTf27ErSLpAfa4IVRLauE");
+				emailjs.init("user_CohGKIqjoqB7yATeEglvy");
 			})();
 		</script>
 		<!-- Option 1: Bootstrap Bundle with Popper -->

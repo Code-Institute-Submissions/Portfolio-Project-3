@@ -13,7 +13,7 @@ body {
 	width: 100%;
 }
 section {
-	padding: 3rem 5rem;
+	padding: 2rem 3rem;
 }
 
 .btn {
@@ -269,7 +269,9 @@ header.sticky ul li a {
 	color: #111;
 	margin-top: 10px;
 }
-
+#gitbutton {
+	top: 8rem;
+}
 /* testimonial section */
 .testimonial {
 	background: #ccc;
@@ -320,6 +322,7 @@ header.sticky ul li a {
 .formBx form {
 	display: flex;
 	flex-direction: column;
+	padding: 3rem;
 }
 .formBx form h3,
 .contactInfo h3 {
@@ -347,10 +350,6 @@ header.sticky ul li a {
 }
 .formBx form textarea {
 	min-height: 200px;
-}
-.formBx form input[type="submit"][disabled="disabled"] {
-	background-color: #333;
-	cursor: auto;
 }
 .formBx form input[type="submit"] {
 	max-width: 100px;
@@ -406,6 +405,14 @@ header.sticky ul li a {
 .contactInfoBx .box .text h3 {
 	font-weight: 500;
 	color: #00ffa2;
+}
+#error_message {
+	margin-bottom: 20px;
+	padding: 0px;
+	color: #00ffa2;
+	text-align: center;
+	font-size: 2rem;
+	transition: all 0.5s ease;
 }
 .copyright {
 	background: #000;
@@ -523,6 +530,7 @@ header.sticky ul li a {
 	.contactInfo {
 		margin: 20px 0;
 	}
+
 	.content-about {
 		display: flex;
 		flex-direction: column;
