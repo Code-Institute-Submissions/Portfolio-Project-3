@@ -363,13 +363,36 @@
 						</div>
 					</div>
 					<div class="formBx">
-						<form id="myform" onsubmit="return validate();">
-							<h3>Send me a Message</h3>
-							<div id="error_message"></div>
-							<input type="text" placeholder="Name" id="name" />
-							<input type="text" placeholder="Email" id="email" />
-							<textarea placeholder="Message" id="message"></textarea>
-							<input type="submit" value="send" />
+						<form id="contact" method="post">
+							<h3>Send Me a Message</h3>
+							<input
+								placeholder="Your name"
+								type="text"
+								tabindex="1"
+								required
+								autofocus
+								class="username"
+							/>
+							<input
+								placeholder="Your Email Address"
+								type="email"
+								tabindex="2"
+								required
+								class="email"
+							/>
+							<textarea
+								placeholder="Type your message here...."
+								tabindex="5"
+								required
+								class="message"
+							></textarea>
+							<input
+								name="submit"
+								value="send"
+								type="submit"
+								id="contact-submit"
+								class="submit"
+							/>
 						</form>
 					</div>
 				</div>
@@ -388,6 +411,8 @@
 			</span>
 		</section>
 		<script src="./assets/js/script.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
 		<script src="./assets/js/easyScrollDots.min.js"></script>
 		<script>
 			easyScrollDots({
@@ -406,9 +431,20 @@
 		</script>
 		<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 		<script>
+			// User ID
+			// user_id
+			// Access Token
+			// random_access-token
 			(function () {
 				emailjs.init("user_CohGKIqjoqB7yATeEglvy");
 			})();
+			/**
+        emailjs.send("service_6pcnbro","template_hbodrvd",{
+		from_name: "Frank",
+		message: "hello",
+		from_email: "example@mail.com",
+	});
+       **/
 		</script>
 		<!-- Option 1: Bootstrap Bundle with Popper -->
 		<script

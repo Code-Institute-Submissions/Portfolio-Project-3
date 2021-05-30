@@ -31,44 +31,54 @@ closeBtns.forEach((node) => {
 });
 
 // Send email form
-let sendButton = document.getElementById("myform");
-
-sendButton.addEventListener("submit", function (event) {
-	event.preventDefault(sendButton);
-	var tempParams = {
-		from_name: document.getElementById("name").value,
-		from_email: document.getElementById("email").value,
-		message: document.getElementById("message").value,
-	};
-	emailjs
-		.send("service_6pcnbro", "template_nktigru", tempParams)
-		.then(function (response) {
-			console.log("sucess", response.status);
-		});
-});
 function validate() {
-	let name = document.getElementById("name").value;
-	let email = document.getElementById("email").value;
-	let message = document.getElementById("message").value;
-	let error_message = document.getElementById("error_message");
-	error_message.style.padding = "10px";
+	let name = document.querySelector(".username");
+	let email = document.querySelector(".email");
+	let msg = document.querySelector(".message");
+	let btn = document.querySelector(".submit");
 
-	var text;
-	if (name.length <= 0) {
-		text = "Please Enter Your Name";
-		error_message.innerHTML = text;
-		return false;
-	}
-	if (email.indexOf("@") == -1 || email.length < 6) {
-		text = "Please Enter a Valid Email Address";
-		error_message.innerHTML = text;
-		return false;
-	}
-	if (message.length <= 0) {
-		text = "Please Enter a Message";
-		error_message.innerHTML = text;
-		return false;
-	}
-	alert("Form Submitted Successfully!");
-	return true;
+	btn.addEventListener("click", (e) => {
+		e.preventDefault();
+		if (email.value.indexOf("@") == -1) {
+			emailerror();
+			if (name.value == "" || email.value == "" || msg.value == "") {
+				emptyerror();
+			}
+		} else {
+			sendmail(name.value, email.value, msg.value);
+			success();
+		}
+	});
+}
+validate();
+
+function sendmail(name, email, msg) {
+	emailjs.send("service_6pcnbro", "template_hbodrvd", {
+		from_name: name,
+		from_email: email,
+		message: msg,
+	});
+}
+function emptyerror() {
+	Swal.fire({
+		icon: "error",
+		title: "Error",
+		text: "Please fill all the Fields",
+	});
+}
+
+function emailerror() {
+	Swal.fire({
+		icon: "error",
+		title: "Did you Fill all the Inputs Correctly? ",
+		text: "Wrong Email Format!",
+	});
+}
+
+function success() {
+	Swal.fire({
+		icon: "success",
+		title: "Success...",
+		text: "Your Message has Been Sent",
+	});
 }

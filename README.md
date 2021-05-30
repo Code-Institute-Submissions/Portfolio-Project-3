@@ -72,7 +72,9 @@
 
 - EmailJS was used as the email deliver API to make the messages deliver possible in the first place.
 
-- Hover.css was used on the Social Media icon.
+[Sweetalert](https://sweetalert.js.org/)
+
+- Sweetalert was used as the default alert tool on contact submission form.
 
 [EasyScrollDots](https://github.com/Superhands89/EasyScrollDots)
 
