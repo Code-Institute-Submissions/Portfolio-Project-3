@@ -32,18 +32,18 @@ closeBtns.forEach((node) => {
 
 // Send email form
 function validate() {
-	let name = document.querySelector(".username");
-	let email = document.querySelector(".email");
-	let msg = document.querySelector(".message");
+	let name = document.getElementById("username");
+	let email = document.getElementById("email");
+	let msg = document.getElementById("message");
 	let btn = document.querySelector(".submit");
 
 	btn.addEventListener("click", (e) => {
 		e.preventDefault();
-		if (email.value.indexOf("@") == -1) {
+		if (name.value == "" || email.value == "" || msg.value == "") {
+			emptyerror();
+		}
+		if (email.value.indexOf("@")) {
 			emailerror();
-			if (name.value == "" || email.value == "" || msg.value == "") {
-				emptyerror();
-			}
 		} else {
 			sendmail(name.value, email.value, msg.value);
 			success();
@@ -67,11 +67,11 @@ function emptyerror() {
 	});
 }
 
-function emailerror() {
+function error() {
 	Swal.fire({
 		icon: "error",
 		title: "Did you Fill all the Inputs Correctly? ",
-		text: "Wrong Email Format!",
+		text: "Please fill message",
 	});
 }
 
